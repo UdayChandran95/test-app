@@ -1,0 +1,39 @@
+.navbar-nav{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.nav-item{
+    padding-left: 20px;
+}
+
+.navbar-brand{
+    font-family: "Righteous", sans-serif;
+    font-size: 1.8rem;
+    padding-left: 20px;
+}
+
+input{
+    margin-right: 8%;
+    border: none;
+    border-bottom: 1px solid #f7f6f6d0;
+    color: #f7f5f5;
+    box-sizing: border-box;
+    background: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+.navBarTop i{
+    position: absolute;
+    color: #f0f0f0e7;
+    right: 4%;
+    font-size: 1.5rem;
+  
+}
+

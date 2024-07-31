@@ -1,0 +1,152 @@
+.ContactContainer{
+    height: 80vh;
+    display: flex;
+    background-color: #faf7f7;
+}
+
+.contacLeft{
+   flex: 5;
+   font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    margin: 90px 80px 10px 80px;
+}
+
+.contacLeft>h3{
+    font-size: 23px;
+}
+
+.contacLeft>h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: #6e2222;
+}
+
+.contacLeft i{
+    padding-right: 10px;
+}
+
+.contacLeft>p{
+    position: relative;
+    font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-size: 1rem;
+   line-height: 30px;
+   color: #745a5a;
+}
+
+.addressCont{
+    margin-top: 20px;
+}
+
+.addressCont > p{
+    font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-size: 0.4rem;
+   color: #745a5a;
+   
+}
+
+.addressCont span{
+   padding-right: 10px;
+    position: relative;
+    font-size: 22px;
+    color: #772929f5;
+}
+
+.addressCont .mobFont{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #252424;
+}
+
+.addressSubCont{
+    display: flex;
+    flex-direction: row;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 0.96rem;
+    color: #772929f5;;
+}
+
+.contacRight{
+   flex: 7;
+}
+
+
+.formContainer {
+    max-width: 500px;
+    margin: 100px auto;
+    
+}
+
+.formContainer  .input-group{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #887c7c79;
+    padding: 10px;
+    font-size: 0.95rem;
+    font-family: "Roboto", sans-serif;
+    color: #635c5c96;
+
+ }
+
+ .input-group .inputCont{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .input-group .inputCont span{
+    padding-right: 8px;
+    color: #311515d2;
+    font-size: 1.5rem;
+ }
+
+ .row{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .column{
+    width: 105%;
+    margin-left: -12px;
+ }
+
+ .row .input-group{
+    flex-basis: 47%;
+ }
+
+ .formContainer  input , textarea{
+    width: 100%;
+    outline: 0;
+    border: none;
+    background: transparent;
+    color: #050505;
+ }
+
+ .formContainer  input:focus{
+    color: #050505;
+ }
+
+       .submit-btn {
+            background-color: rgb(48, 150, 48);
+            color: white;
+            padding: 14px 20px;
+            border: none;
+            font-family: "Bebas Neue", sans-serif;
+           font-weight: 400;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.5s ease;
+            
+        }
+
+        .submit-btn i{
+            padding-right: 10px;
+        }
+        
+     .submit-btn:hover {
+            background-color: #050505;
+        }
+

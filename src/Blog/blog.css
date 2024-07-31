@@ -1,0 +1,246 @@
+.blogBg{
+    position: absolute;
+    width: 100%;
+    height: 68vh;
+    object-fit: cover;
+    filter: brightness(50%);
+    
+}
+
+.blogSecCont{
+    height: 280vh;
+    
+}
+
+.blogTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogTitle h1{
+    position: relative;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 8%;
+    font-size: 55px;
+    color: rgb(245, 245, 243);
+
+}
+
+.blogImgCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blogImgCont img{
+    position: relative;
+    width: 34px;
+    height: 34px;
+    z-index: 5;
+    border-radius: 50%;
+}
+
+.blogImgCont h4{
+    position: relative;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    color: #f7f6f6;
+   font-size: 18px;
+   padding: 10px 20px;
+   letter-spacing: 0.05rem;
+   
+}
+
+.blogImgCont p{
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #f3f3f3be;
+    padding: 9px 0;
+}
+
+.blogTextParagraph{
+    padding-top: 200px;
+}
+
+.blogTextParagraph h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin: 3% 25% 0 25%;
+    color: #383030;
+}
+
+.blogTextParagraph h3{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    margin: 2% 25% -1% 25%;
+    color: #383030;
+}
+
+.blogSecCont p{
+    padding-top: 20px;
+    color: #524747;
+    width: 50%;
+    margin: auto 25%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+}
+
+.drop-cap::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    float: left;
+    line-height: 1.2;
+    margin-right: 0.1em;
+}
+
+.blog1Img{
+    margin: 4% 25% 1% 25%;
+    width: 50%;
+}
+
+.blogBoxCont{
+    background-color: antiquewhite;
+    width: 50%;
+    margin: 2% 25%;
+}
+
+.blogBoxCont p{
+    width: 70%;
+    margin-left: 0;
+    padding: 35px 0 30px 60px;
+    border-left: 3px solid #7c5c5c;
+    font-size: 18px;
+    display: flex;
+    justify-content:left;
+}
+
+.blogBoxCont span{
+    font-size: 5rem;
+    padding-right: 5px;
+    font-family:"Bebas Neue", sans-serif;
+}
+
+.blogCover{
+    display: grid;
+    place-items: center;
+}
+
+.blogCover > img{
+    margin-top: 6%;
+    width: 100%;
+    height: 500px;
+}
+
+.commentBoxSection{
+    height: 65vh;
+}
+
+.commentBoxSection h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    margin: 7% 25% 0 30%;
+    color: #383030;
+}
+
+.blogformContainer{
+    width: 38%;
+    margin: 3% 30% 5% 30%;
+}
+
+.blogformContainer input{
+    width: 100%;
+    padding: 10px 10px 10px 0;
+    border-bottom: 1px solid #5247476e;
+}
+
+.blogformContainer input:focus{
+    color: #000;
+}
+
+.blogformContainer textarea{
+    width: 97%;
+    margin-left: -5px;
+    border-bottom: 1px solid #5247476e;
+}
+
+
+.blogformContainer .column{
+    margin-bottom: 20px;
+}
+
+.blogformContainer .submit-btn{
+    margin-top: 30px;
+    margin-left: -10px;
+}
+
+.BlogSuggest > h1{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+   text-align: center;
+   font-size: 35px;
+}
+
+.blogSuggBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.blogCont{
+    width: 400px;
+}
+
+.BlogSuggest .blogCont  h4{
+    padding: 20px 0;
+    font-size: 18px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+.BlogSuggest  .blogCont  p{
+   font-size: 26px;
+   line-height: 36px;
+   color: #463c3c;
+   font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+.blogImg{
+    width: 300px;
+    height: auto;
+    
+}
+
+.dateCont{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #6e6161;
+}
+
+.socialIcon{
+    position: absolute;
+    right: 10%;
+    margin-top: 24px;
+
+}
+
+.socialIcon i{
+    font-size: 1.5rem;
+    padding-right: 20px;
+    cursor: pointer;
+}
