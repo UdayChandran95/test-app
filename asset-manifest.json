@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/brownandshine/static/css/main.8385bce9.css",
+    "main.js": "/brownandshine/static/js/main.b1420a36.js",
+    "static/js/725.db906730.chunk.js": "/brownandshine/static/js/725.db906730.chunk.js",
+    "static/media/wooden-house.jpg": "/brownandshine/static/media/wooden-house.b221754e4a95a889fd26.jpg",
+    "static/media/wooden house.jpg": "/brownandshine/static/media/wooden house.3fbbabeed9358276505c.jpg",
+    "static/media/floor2.jpg": "/brownandshine/static/media/floor2.f931f3a6d2df59da9877.jpg",
+    "static/media/old-fence-bg.jpg": "/brownandshine/static/media/old-fence-bg.7ac8f2f2829504de80d6.jpg",
+    "static/media/floor1.jpg": "/brownandshine/static/media/floor1.4917c921430b04b21279.jpg",
+    "static/media/door5.jpg": "/brownandshine/static/media/door5.4b44cea2fa8e4b1add32.jpg",
+    "static/media/4.jpg": "/brownandshine/static/media/4.f538da61e5b4cac2dbd2.jpg",
+    "static/media/statue1.jpg": "/brownandshine/static/media/statue1.82dc5cd48de93d96aef7.jpg",
+    "static/media/2.jpg": "/brownandshine/static/media/2.564ea685a686467c974d.jpg",
+    "static/media/3.jpg": "/brownandshine/static/media/3.da0a46677fd239c3c66e.jpg",
+    "static/media/door8.jpg": "/brownandshine/static/media/door8.5632a9afd6d27448587c.jpg",
+    "static/media/maindoor.jpg": "/brownandshine/static/media/maindoor.af968a426408290ed45b.jpg",
+    "static/media/statue.jpg": "/brownandshine/static/media/statue.e884b60b9d270e8f9979.jpg",
+    "static/media/door6.jpg": "/brownandshine/static/media/door6.7640eb8c1f12aa81f7c2.jpg",
+    "static/media/door9.jpg": "/brownandshine/static/media/door9.861ca074b278ccd8597e.jpg",
+    "static/media/plate.jpg": "/brownandshine/static/media/plate.69f051b6f8d8ef92b424.jpg",
+    "static/media/door7.jpg": "/brownandshine/static/media/door7.28d93a47b18e9e145964.jpg",
+    "static/media/1.jpg": "/brownandshine/static/media/1.4473e0dff38fc493dade.jpg",
+    "static/media/m1.jpg": "/brownandshine/static/media/m1.8f84f908a489c81160ef.jpg",
+    "static/media/m2.jpg": "/brownandshine/static/media/m2.e2d84bf04a79239491ff.jpg",
+    "static/media/m4.jpg": "/brownandshine/static/media/m4.25397c71f2c855671df5.jpg",
+    "index.html": "/brownandshine/index.html",
+    "main.8385bce9.css.map": "/brownandshine/static/css/main.8385bce9.css.map",
+    "main.b1420a36.js.map": "/brownandshine/static/js/main.b1420a36.js.map",
+    "725.db906730.chunk.js.map": "/brownandshine/static/js/725.db906730.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8385bce9.css",
+    "static/js/main.b1420a36.js"
+  ]
+}
