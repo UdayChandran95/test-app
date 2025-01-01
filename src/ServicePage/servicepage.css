@@ -1,0 +1,145 @@
+.image-gallery {
+  width: 78%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px;
+  margin: 80px auto;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thumbnail {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  border: 1px solid #160808;
+
+}
+
+.thumbnail-title {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+.image-viewer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  flex-direction: column;
+}
+
+.image-content-container {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  height: 80%;
+  align-items: left; 
+  justify-content: left;
+}
+
+.full-image {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.image-content {
+  flex: 1;
+  width: 60%; 
+  padding: 20px 30px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  margin-left: -100px;
+  
+}
+
+.image-content h2 {
+  margin: 10px auto;
+  width: 70%;
+}
+
+.image-content p {
+  padding: 20px auto;
+  width: 70%;
+  margin: 10px auto;
+  font-family: "Barlow", sans-serif;
+  line-height: 25px;
+}
+
+.image-info-table {
+  width: 70%;
+  margin: 10px auto;
+  border-collapse: collapse;
+  font-family: "Barlow", sans-serif;
+}
+
+.image-info-table td {
+  padding: 6px;
+
+}
+
+.social-icons {
+  width: 70%;
+  margin: 15px auto; 
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #646669; 
+}
+
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 475px) {
+  .image-content-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-content-container > img{
+       width: 100%;
+       height: 200px;
+  }
+
+  .image-content{
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+  }
+}

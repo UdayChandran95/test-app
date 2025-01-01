@@ -1,39 +1,79 @@
-.navbar-nav{
-    font-family: "Bebas Neue", sans-serif;
+@import url(https://db.onlinewebfonts.com/c/164a60c2e090248befbcf32fdd5af386?family=Lulo+Clean+One+Bold);
+
+#navBarSection{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: #F7EFE5;
+}
+
+.nLogo{
+    position: relative;
+    font-size: 26px;
+    font-family: "Cormorant Garamond", serif;
+    margin: 30px 60px;
+}
+
+.lIcon{
+    padding-right: 10px;
+    font-size: 22px;
+}
+
+
+.navbar ul li{
+    padding-right: 30px;
+    
+}
+
+.nav-item a{
+    font-family: "Barlow", sans-serif;
     font-weight: 400;
-    font-size: 1.1rem;
-    padding: 10px;
-    padding-left: 20px;
+    padding: 30px;
+    font-size: 17px;
+    color: #050505;
 }
 
-.nav-item{
-    padding-left: 20px;
+
+.nav-item a:hover{
+     color: #c9b7b7c7;
 }
 
-.navbar-brand{
-    font-family: "Righteous", sans-serif;
-    font-size: 1.8rem;
-    padding-left: 20px;
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
-input{
-    margin-right: 8%;
-    border: none;
-    border-bottom: 1px solid #f7f6f6d0;
-    color: #f7f5f5;
-    box-sizing: border-box;
-    background: none;
+
+
+
+
+
+
+@media screen and (max-width: 475px) {
+
+    #navBarSection{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        background-color: #F7EFE5;
+    }
+
+    .nLogo{
+        position: relative;
+        font-size: 16px;
+        margin: 30px;
+    }
+
+    .navbar ul li{
+        text-align: center;
+
+        
+    }
+    
+   
+
 }
 
-input:focus{
-    outline: none;
-}
-
-.navBarTop i{
-    position: absolute;
-    color: #f0f0f0e7;
-    right: 4%;
-    font-size: 1.5rem;
   
-}
+
 

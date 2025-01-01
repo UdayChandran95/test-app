@@ -1,472 +1,139 @@
-@import url('https://cdn-uicons.flaticon.com/2.5.1/uicons-thin-rounded/css/uicons-thin-rounded.css');
-@import url('https://cdn-uicons.flaticon.com/2.5.1/uicons-thin-straight/css/uicons-thin-straight.css');
-@import url('https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css');
-
-.servBg , .servBg2{
-    position: absolute;
+#serviceContainer{
     width: 100%;
-    height: 70vh;
-    object-fit: cover;
-    
+    background-color: #F7EFE5;
 }
 
-.servTitle{
-        position: absolute;
-        left: 44%;
-        top: 33%;
-}
-
-.servTitle h1{
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-size: 50px;
-  color: #f5f2f2;
-}
-
-.servTitle span{
-  margin-top: -15px;
-  color: #f5f2f2;
-  font-size: 50px;
-  display: flex;
-  justify-content: center;
-}
-
-
-
-.servCont{
-    margin-top: 23%;
-    display: flex;
-    height: 130vh;
-    background-color: rgb(214, 214, 188);
-}
-
-
-.servInfo{
-    flex: 6;
-}
-
-.servCont .servInfo h3{
-  padding-top: 35%;
-  font-size: 24px;
-}
-
-.servInfo .servHeading{
-  font-size: 48px;
-  line-height: 55px;
-}
-
-
-.servInfo .servDesc{
+.contactTxt{
+    padding: 30px 0px 30px 140px;
     font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 30px;
-    width: 90%;
-    color: #534d4d;
+       font-size: 3rem;
+     color: #000;
 }
 
-.servInfo button{
-    margin: 30px 120px;
-    padding: 10px 20px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    background-color: #b18857;
-    color: #f5f2f2;
-    border: none;
-    font-size: 1.2rem;
-    transition: all 0.5s;
+.servContents{
+    width: 80%;
+    margin: auto;
 }
 
-.servInfo button:hover{
-  background-color: #2e2a2a;
-}
-
-.servInfo .fa-arrow-right{
-    position: relative;
-    padding-left: 15px;
-    font-size: 1rem;
-}
-
-.servBox{
-    flex: 5;
-}
-
-
-.servInfo>h3{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-size: 26px;
-    padding: 200px 0 20px 120px;
-}
-
-
-.servInfo>p{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 500;
+.servBg{
     width: 100%;
-    font-size: 55px;
-    padding-left: 120px;
-    line-height: 70px;
-    color: #411d1d;
-}
-
-.servBox {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-   justify-content: space-evenly;
-    margin: 80px 0;
-    padding-top: 100px;
-    padding-right: 40px;
-  }
-
-  .box {
-    width: 260px; 
-    height: 290px; 
-    background-color: #e9e4d0;
-    margin: 15px 0; 
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    transition: all 0.6s ease;
-    color: #312d2d;
-  }
-
-  .box:nth-child(2) {
-    margin-top: -20px;
-  }
-
-  .box:nth-child(4) {
-    margin-top: -20px;
-  }
-
-
-  .box .boxIcon{
-    position: relative;
-    font-size: 60px;
-    padding: 40px 50px 20px 50px;
-    color: #b18857;
-    transition: color 0.6s;
-    z-index: 99;
-  }
-
-  .box:hover{
-    background-color: #b18857;
-  }
-
-  .box:hover i,
-  .box:hover h3,
-  .box:hover p{
-    color:#f5f2f2;
-  }
-
-  .box h3{
-    font-size: 22px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    padding: 10px 30px;
-    transition: color 0.6s;
-    color: #411d1d;
-    
-  }
-
-  .box p{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    line-height: 26px;
-    font-size: 0.95rem;
-    padding: 0 30px;
-    transition: color 0.6s;
-    color: #411d1d;
-  }
-
-  .servPageCont{
-    margin-top: 25%;
-    padding-top: 4%;
-    height: 110vh;
-    background-color: rgb(240, 240, 222);
-  }
-
-  .servPageCont > h3{
-    padding-top: 100px;
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-  }
-
-  .servPageCont > p{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    text-align: center;
-    font-size: 54px;
-    width: 60%;
-    margin: 2% 20%;
-    line-height: 56px;
-    color: #2b1818;
-  }
-
-  .servContentsBox{
-    margin: 20px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 80%;
-   text-align: center;
-   cursor: pointer;
-
-  }
-
-
-  .roundDiv{
-    position: absolute;
-    margin-left: 100px;
-    margin-top: -100px;
-    width: 64px;
-    height: 64px;
-    background-color: rgb(230, 230, 198);
-    border-radius: 50%;
-    z-index: 1;
-  }
-
-
-  .servContColumn .bIcon{
-    position: relative;
-    font-size: 65px;
-    padding-left: 20px;
-    color: #b18857;
-    z-index: 3; 
-  }
-
-  .servContentsBox h3{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-size: 1.35rem;
-    padding-top: 20px;
-    letter-spacing: 0.02rem;
-  }
-
-  .servContentsBox p{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 0.9rem;
-    padding-top: 10px;
-  }
-
-  .servContColumn{
-    width: 220px;
-    margin: 20px;
-    padding: 40px 0;
-    color: #411d1d;
-  }
-
-  .servContColumn:hover .bIcon{
-    color: #3f3838;
-  }
-
-  .servContColumn:hover{
-    background-color: rgb(230, 230, 198);
-    color: #292727;
-  }
-
-  .servImgContainer{
-     height: 115vh;
-     background-color: rgb(240, 240, 222);
-     display: flex; 
-  }
-
-  .imgBoxContainer{
-    flex: 6;
-  }
-
-  .imgBoxContainer > img{
-    width: 490px;
-    height: 550px;
-    margin: 15%;
-    filter: brightness(90%);
-  }
-
-  .imgBoxDesc{
-    flex: 6;
-
-  }
-
-  .imgBoxDesc h1{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-size: 3rem;
-    line-height: 50px;
-    padding: 20px 0;
-  }
-
-
-
-  .imgBoxList li{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    padding: 10px 0;
-    font-size: 1rem;
-    color: #312e2e;
-  }
-
-  .pBoxList{
-    list-style-type: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    color: #312e2e;
-    padding: 0;
-  }
-
-  .pBoxList li{
-      margin-top: 14px;
-  }
-
-
-  .pBoxList li::before {
-    content: "\f00c"; 
-    font-family: 'Font Awesome 6 Free';
-    padding-right: 10px;
-    font-weight: 900;
-}
-
-  .priceSec{
-    height: 114vh;
-    background-color: rgb(214, 214, 188);
-    display: flex;
-  }
-
-  .priceBox{
-      flex: 6;
-  
-  }
-
-  .priceDesc{
-       flex: 6;
-  }
-
-  .priceFlexBox{
-    margin-left: 60px;
-    margin-top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .pBox{
-    position: relative;
-    width: 230px;
-    background-color: #e9e4d0;
-    text-align: center;
-    margin: 40px;
-  }
-
-  .pBox2{
-    position: relative;
-    width: 230px;
-    background-color: #e9e4d0;
-    text-align: center;
-    margin-top: 80px;
-  }
-
-  .pBox img,
-  .pBox2 img{
-    width: 90px;
-    padding: 20px 15px;
-  }
-
-  .pBox span,
-  .pBox2 span{
-    position: absolute;
-    font-size: 1.8rem;
-    left: 70px;
-  }
-
-  .pBox h1,
-  .pBox h2,
-  .pBox2 h1,
-  .pBox2 h2{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    color: #411d1d;
-    font-size: 24px;
-    padding: 14px;
-
-  }
-
-  .pBox h1,
-  .pBox2 h1{
-    font-size: 3rem;
-    
-  }
-
-  .pBox p,
-  .pBox2 p{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    color: #494242;
-  }
-
-  .pBox button,
-  .pBox2 button{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    padding: 10px 35px;
-    font-size: 18px;
-    margin: 20px 0 40px 0;
-    border: none;
-    color: #f5f2f2;
-    background-color:rgb(66, 141, 66);
-  }
-
-  .priceDesc h1{
-    font-size: 50px;
-    padding-top: 10px;
-  }
-
-  #queryContainer{
-    display: flex;
-    height: 123vh;
-    background-color: rgb(230, 230, 210);
-   
-  }
-
-  .queryImgBox{
-    flex: 6;
-  }
-
-  .queryImgBox > img{
-    width: 670px;
     height: auto;
-    filter: brightness(60%);
-  }
+}
 
-  .queryFormBox{
-    flex: 6;
-  }
+.servImgContents{
 
-  .queryFormBox h3{
-    font-size: 25px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    margin: 10% 0 0 12%;
-  }
-
-  .queryFormBox p{
-    font-size: 54px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    margin: 1% 0 0 12%;
-  }
-
- .socialIconsBox ion-icon{
-     margin-top: 15px;
-      font-size: 26px;
-      padding-right: 18px;
- }
+   background-color: #fff;
 
 
+.imgCont{
+    display: flex;
+   flex-wrap: wrap;
+   padding: 80px 20px 50px 20px;
+   width: 80%;
+   margin: auto;
 
 
+   
+   img{
+    width: 250px;
+    height: 240px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #381717;
+   }
+}
 
+}
+
+.offerContainer{
+    width: 80%;
+    margin: auto;
+}
+    .offerContainer > h2{
+        text-align: center;
+        padding: 60px 0px 30px 0px;
+        font-size: 2.6rem;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .offerContentContainer{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 80px;
+    }
+
+    .offerContents{
+                padding: 40px;
+                border-top: 1px solid #686464;
+                border-bottom: 1px solid #686464;
+                border-left: 1px solid #686464;
+    }
+
+    .offerContents > i{
+         font-size: 40px;
+    }
+
+    .offerContents > h3{
+                font-size: 22px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                padding-top: 20px;
+    }
+
+    p{
+                font-family: "Barlow", sans-serif;
+                line-height: 25px;
+        }
+
+
+        .offerContents:last-child{
+            border-right: 1px solid #686464;
+        }
+
+        .offerContents:hover{
+            background-color: #e2dbdbbe;
+        }
+    
+
+.viewService{
+    position: absolute;
+    margin-top: -60px;
+    float: right;
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+}
+
+.aright{
+    padding-left: 5px;
+}
+
+@media screen and (max-width: 475px) {
+    .contactTxt{
+        padding: 30px;
+        font-family: "Roboto", sans-serif;
+           font-size: 2rem;
+         color: #000;
+    }
+
+    .servImgContents > img{
+        width: 150px;
+        height: 140px;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .imgCont {
+        display: flex;
+       justify-content: center;  
+    }
+
+    .offerContentContainer{
+        flex-direction: column;
+    }
+
+    .offerContents{
+        border-right: 1px solid #686464;
+    }
+
+   
+}

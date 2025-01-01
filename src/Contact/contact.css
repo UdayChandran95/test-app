@@ -1,94 +1,74 @@
-.ContactContainer{
-    height: 80vh;
+@import url('https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.5.1/uicons-thin-rounded/css/uicons-thin-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css');
+
+#contactSection{
+    background-color: #F7EFE5;
+}
+
+
+.abtTxt{
+    padding: 30px 0px 0px 140px;
+    font-family: "Roboto", sans-serif;
+       font-size: 3rem;
+     color: #000;
+}
+
+
+#ContactContainer{
     display: flex;
-    background-color: #faf7f7;
+    width: 80%;
+    margin: 40px auto 0px auto;
+    padding-bottom: 40px;
+
+  
+    
 }
 
 .contacLeft{
-   flex: 5;
-   font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    display: flex;
-    flex-direction: column;
-    margin: 90px 80px 10px 80px;
-}
+   flex: 1;
 
-.contacLeft>h3{
-    font-size: 23px;
-}
-
-.contacLeft>h1{
-    font-size: 50px;
-    padding-bottom: 10px;
-    color: #6e2222;
-}
-
-.contacLeft i{
-    padding-right: 10px;
-}
-
-.contacLeft>p{
-    position: relative;
-    font-family: "Roboto", sans-serif;
-   font-weight: 400;
-   font-size: 1rem;
-   line-height: 30px;
-   color: #745a5a;
-}
-
-.addressCont{
-    margin-top: 20px;
-}
-
-.addressCont > p{
-    font-family: "Roboto", sans-serif;
-   font-weight: 400;
-   font-size: 0.4rem;
-   color: #745a5a;
+   img{
+    width: 100%;
+    height: auto;
+   }
    
 }
 
-.addressCont span{
-   padding-right: 10px;
-    position: relative;
-    font-size: 22px;
-    color: #772929f5;
-}
 
-.addressCont .mobFont{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-size: 1.1rem;
-    color: #252424;
-}
-
-.addressSubCont{
-    display: flex;
-    flex-direction: row;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 0.96rem;
-    color: #772929f5;;
-}
 
 .contacRight{
-   flex: 7;
+   flex: 1;
+   background-color: #fff;
 }
 
 
 .formContainer {
-    max-width: 500px;
-    margin: 100px auto;
+    width: 70%;
+    margin: 80px auto;
     
+
+    
+}
+
+.cIcons{
+    font-size: 20px;
+    color: #383535;
+    padding-right: 10px;
 }
 
 .formContainer  .input-group{
     margin-bottom: 30px;
-    border-bottom: 1px solid #887c7c79;
+    border-bottom: 1px solid #2c2929c5;
     padding: 10px;
-    font-size: 0.95rem;
-    font-family: "Roboto", sans-serif;
-    color: #635c5c96;
+
+
+ }
+
+ .formContainer input{
+    font-size: 1rem;
+    font-family: "Barlow", sans-serif;
+    color: #000000 !important;
 
  }
 
@@ -97,11 +77,7 @@
     flex-direction: row;
  }
 
- .input-group .inputCont span{
-    padding-right: 8px;
-    color: #311515d2;
-    font-size: 1.5rem;
- }
+
 
  .row{
     display: flex;
@@ -123,18 +99,20 @@
     border: none;
     background: transparent;
     color: #050505;
+    resize: none;
  }
 
  .formContainer  input:focus{
-    color: #050505;
+    color: #020202;
  }
 
        .submit-btn {
-            background-color: rgb(48, 150, 48);
+          width: 100%;
+            background-color: rgb(104, 112, 104);
             color: white;
             padding: 14px 20px;
             border: none;
-            font-family: "Bebas Neue", sans-serif;
+            font-family: "Barlow", sans-serif;
            font-weight: 400;
             cursor: pointer;
             font-size: 16px;
@@ -149,4 +127,40 @@
      .submit-btn:hover {
             background-color: #050505;
         }
+
+
+.addressCont{
+    padding-top: 50px;
+    line-height: 10px;
+    font-family: "Barlow", sans-serif;
+    color: #000;
+}
+
+.sIconCont{
+    margin-top: 40px;
+    
+
+    i{
+        padding-right: 14px;
+        cursor: pointer;
+    }
+}
+
+
+ @media screen and (max-width: 475px) {
+
+    #ContactContainer{
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .abtTxt{
+      padding: 30px;
+      font-family: "Roboto", sans-serif;
+         font-size: 2rem;
+       color: #000;
+  }
+    
+ }
 
